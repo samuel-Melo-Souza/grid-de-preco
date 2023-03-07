@@ -3,9 +3,18 @@ body{
   font-family: 'Roboto', sans-serif;
   border: 0px;
   margin: 0%;
+  min-height: 100%;
+  min-width: 100%;
+  display: block;
 }
+
+/*ESTILIZAÇÃO HEADER*/
 header{
-  height: 33.3333%;
+  font-size: large;
+  min-height: 33.3333%;
+  min-width: 33.333%;
+  position: relative;
+  padding: 50px;
 }
 /*ESTILIZAÇÃO HEADER*/
 header h1{
@@ -18,12 +27,19 @@ header p{
   color:silver;
 }
 
+/*ESTILIZAÇÃO MAIN*/
+#main {
+  display: flex;
+  height: auto;
+}
+
 /*ESTILIZAÇÃO LOGIN*/
 #login {
-  display: inline-block;
+  display: block;
   width: 50%;
-  height: 33%;
+  height: auto;
   background-color: DarkCyan;
+  padding: 56px;
 }
 #login h2{
   color: LightCyan;
@@ -32,16 +48,26 @@ header p{
   color: LightCyan;
 }
 #login button{
+  font-size: large;
   background-color: GreenYellow;
   color: white;
-  border: 0px;
+  padding: 15px;
+  border-radius: 10px;
+  border-color: greenyellow;
+  margin:auto;
+  height: 40%;
+  width: 60%;
+  text-align: center;
+  align-items: center;
+  display: block;
 }
 /*ESTILIZAÇÃO BENEFICIOS*/
 #beneficios{
-  display: inline-block;
-  width: 49%;
-  height: 33%;
+  display: block;
+  width: 50%;
+  height: auto;
   background-color: LightSeaGreen;
+  padding: 56px;
 }
 #beneficios h2{
   color: white;
@@ -49,4 +75,8 @@ header p{
 #beneficios ul{
   list-style-type: none;
   color: LightCyan;
+  padding: 0%;
+}
+#beneficios il{
+  margin: auto;
 }
