@@ -1,0 +1,52 @@
+body{
+  font-family: 'Karla', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  border: 0px;
+  margin: 0%;
+}
+header{
+  height: 33.3333%;
+}
+/*ESTILIZAÇÃO HEADER*/
+header h1{
+  color: MediumTurquoise;
+}
+header h2{
+  color: GreenYellow;
+}
+header p{
+  color:silver;
+}
+
+/*ESTILIZAÇÃO LOGIN*/
+#login {
+  display: inline-block;
+  width: 50%;
+  height: 33%;
+  background-color: DarkCyan;
+}
+#login h2{
+  color: LightCyan;
+}
+#login h3{
+  color: LightCyan;
+}
+#login button{
+  background-color: GreenYellow;
+  color: white;
+  border: 0px;
+}
+/*ESTILIZAÇÃO BENEFICIOS*/
+#beneficios{
+  display: inline-block;
+  width: 49%;
+  height: 33%;
+  background-color: LightSeaGreen;
+}
+#beneficios h2{
+  color: white;
+}
+#beneficios ul{
+  list-style-type: none;
+  color: LightCyan;
+}
