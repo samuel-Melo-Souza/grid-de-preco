@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <div>
+      <h1 id="titulo">Cadastro de DEVs</h1>
+      <p id="sub_titulo">Complete suas informações</p>
+      <br />
+    </div>
+    <form action="">
+      <fieldset class="grupo">
+        <div class="campo">
+          <label for="nome"><strong>Nome</strong></label>
+          <input type="text" name="nome" id="nome" required />
+        </div>
+
+        <div class="campo">
+          <label for="sobrenome"><strong>Sobrenome</strong></label>
+          <input type="text" name="sobrenome" id="sobrenome" required />
+        </div>
+      </fieldset>
+
+      <div class="campo">
+        <label for="email"><strong>Email</strong></label>
+        <input type="email" name="email" id="email" required />
+      </div>
+
+      <div class="campo">
+        <label for="area"
+          ><strong>Qual área da aplicação você desenvolve ?</strong></label
+        >
+        <input type="radio" name="devweb" value="frontend" checked />Front-end
+        <input type="radio" name="devweb" value="backend" />Back-end
+        <input type="radio" name="devweb" value="fullstack" />Full-stack
+      </div>
+
+      <div class="campo">
+        <label for="senioridade"><strong>Senioridade</strong></label>
+        <select name="senioridade" id="senioridade">
+          <option selected disable value="">Selecione</option>
+          <option value="junior">Junior</option>
+          <option value="pleno">Pleno</option>
+          <option value="senior">Senior</option>
+        </select>
+      </div>
+
+      <fieldset class="grupo">
+        <div>
+          <label for=""><strong>Selecione as tecnologia</strong></label
+          ><br /><br />
+          <input
+            type="checkbox"
+            id="tecnologia"
+            name="tecnologia"
+            value="HTML"
+          />
+          <label for="HTML"><strong>HTML</strong></label>
+          <input
+            type="checkbox"
+            id="tecnologia"
+            name="tecnologia"
+            value="CSS"
+          />
+          <label for="CSS"><strong>CSS</strong></label>
+          <input
+            type="checkbox"
+            id="tecnologia"
+            name="tecnologia"
+            value="JAVASCRIPT"
+          />
+          <label for="JAVASCRIPT"><strong>JAVASCRIPT</strong></label>
+          <input
+            type="checkbox"
+            id="tecnologia"
+            name="tecnologia"
+            value="JAVA"
+          />
+          <label for="JAVA"><strong>JAVA</strong></label>
+          <input
+            type="checkbox"
+            id="tecnologia"
+            name="tecnologia"
+            value="PYTHON"
+          />
+          <label for="PYTHON"><strong>PYTHON</strong></label>
+          <input
+            type="checkbox"
+            id="tecnologia"
+            name="tecnologia"
+            value="ANGULAR"
+          />
+          <label for="ANGULAR"><strong>ANGULAR</strong></label>
+          <input
+            type="checkbox"
+            id="tecnologia"
+            name="tecnologia"
+            value="SQL"
+          />
+          <label for="SQL"><strong>SQL</strong></label>
+        </div>
+      </fieldset>
+
+      <div>
+        <br />
+        <label for="experiencia"
+          ><strong>Conte um pouco sobre suas experiencias</strong></label
+        >
+        <textarea
+          name="experiencia"
+          id="experiencia"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+
+      <button type="submit">Concluído</button>
+    </form>
+  </body>
+</html>
